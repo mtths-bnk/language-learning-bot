@@ -1,0 +1,9 @@
+numpy
+openai-whisper
+sounddevice
+langchain
+langchain-community
+nltk
+torch
+transformers
+rich
