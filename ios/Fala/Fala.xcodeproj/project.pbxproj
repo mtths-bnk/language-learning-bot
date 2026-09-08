@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12201F702A57433FA5FF57AC /* FalaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12201F702A57433FA5FF57AD /* FalaApp.swift */; };
+		B60CEEC909BE43889FDCFE02 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60CEEC909BE43889FDCFE03 /* AppModel.swift */; };
+		70FE90DA0F0E41978C91759A /* LearningProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70FE90DA0F0E41978C91759B /* LearningProgress.swift */; };
+		B9B37F94320C4A42836E2B4C /* ConversationTurn.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B37F94320C4A42836E2B4D /* ConversationTurn.swift */; };
+		A972524C8C7144A099782EA5 /* UtteranceAnalysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = A972524C8C7144A099782EA6 /* UtteranceAnalysis.swift */; };
+		3611EF6BFA3944BB8CE4119E /* SpeechRecognitionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3611EF6BFA3944BB8CE4119F /* SpeechRecognitionService.swift */; };
+		AB9FF28E5271425ABED17CDF /* OnDeviceLanguageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9FF28E5271425ABED17CE0 /* OnDeviceLanguageModel.swift */; };
+		1D83A15FF3ED4F319E091475 /* TextToSpeechService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D83A15FF3ED4F319E091476 /* TextToSpeechService.swift */; };
+		CBD51301CD8F4D33BB355663 /* ProgressStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD51301CD8F4D33BB355664 /* ProgressStore.swift */; };
+		625C6FB4D79B42139F807EDD /* WeaknessAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625C6FB4D79B42139F807EDE /* WeaknessAnalyzer.swift */; };
+		03C072A7B4814093BAF30C54 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C072A7B4814093BAF30C55 /* RootView.swift */; };
+		B0B22248103243B89C31DBC8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B22248103243B89C31DBC9 /* HomeView.swift */; };
+		ABD52B0432084E3C8D0BCE72 /* PracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD52B0432084E3C8D0BCE73 /* PracticeView.swift */; };
+		4D4722E1C5DA41C2820ECBFE /* ProgressScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4722E1C5DA41C2820ECBFF /* ProgressScreen.swift */; };
+		71293E4FE4374F988A0FF14D /* FalaTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71293E4FE4374F988A0FF14E /* FalaTheme.swift */; };
+		635996A0AD734636B470E451 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 635996A0AD734636B470E452 /* Assets.xcassets */; };
+		98679C24EE7D4956909BD99E /* Fraunces.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 98679C24EE7D4956909BD99F /* Fraunces.ttf */; };
+		AF216C56F62C4069BF3E5E38 /* Manrope.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF216C56F62C4069BF3E5E39 /* Manrope.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E3F2107B907A04720BDD84912 /* Fala.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fala.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12201F702A57433FA5FF57AD /* FalaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FalaApp.swift; sourceTree = "<group>"; };
+		B60CEEC909BE43889FDCFE03 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		70FE90DA0F0E41978C91759B /* LearningProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningProgress.swift; sourceTree = "<group>"; };
+		B9B37F94320C4A42836E2B4D /* ConversationTurn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationTurn.swift; sourceTree = "<group>"; };
+		A972524C8C7144A099782EA6 /* UtteranceAnalysis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtteranceAnalysis.swift; sourceTree = "<group>"; };
+		3611EF6BFA3944BB8CE4119F /* SpeechRecognitionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognitionService.swift; sourceTree = "<group>"; };
+		AB9FF28E5271425ABED17CE0 /* OnDeviceLanguageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnDeviceLanguageModel.swift; sourceTree = "<group>"; };
+		1D83A15FF3ED4F319E091476 /* TextToSpeechService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextToSpeechService.swift; sourceTree = "<group>"; };
+		CBD51301CD8F4D33BB355664 /* ProgressStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressStore.swift; sourceTree = "<group>"; };
+		625C6FB4D79B42139F807EDE /* WeaknessAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaknessAnalyzer.swift; sourceTree = "<group>"; };
+		03C072A7B4814093BAF30C55 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		B0B22248103243B89C31DBC9 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		ABD52B0432084E3C8D0BCE73 /* PracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeView.swift; sourceTree = "<group>"; };
+		4D4722E1C5DA41C2820ECBFF /* ProgressScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressScreen.swift; sourceTree = "<group>"; };
+		71293E4FE4374F988A0FF14E /* FalaTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FalaTheme.swift; sourceTree = "<group>"; };
+		635996A0AD734636B470E452 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9DF1720F99694DAE804E0FDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98679C24EE7D4956909BD99F /* Fraunces.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fraunces.ttf; sourceTree = "<group>"; };
+		AF216C56F62C4069BF3E5E39 /* Manrope.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Manrope.ttf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4051B1CD7595402E8BEA51EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B044EA87225742DE9A18B90F = {
+			isa = PBXGroup;
+			children = (
+				FA683CEAF5B84181A622A935 /* Fala */,
+				1BA467E613814A66A12DC5B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1BA467E613814A66A12DC5B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3F2107B907A04720BDD84912 /* Fala.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA683CEAF5B84181A622A935 /* Fala */ = {
+			isa = PBXGroup;
+			children = (
+				12201F702A57433FA5FF57AD /* FalaApp.swift */,
+				901DD83C4DCE44FF8DED787B /* App */,
+				7301AFDEF920402684B4B251 /* Models */,
+				36E98BC9A0E64DE78C08C51C /* Services */,
+				9A0701C006BD46E291EB9B1C /* Views */,
+				93C54E7034F04C6BB193F383 /* Theme */,
+				EB7A142DFFBE492FB86587CB /* Resources */,
+				635996A0AD734636B470E452 /* Assets.xcassets */,
+				9DF1720F99694DAE804E0FDB /* Info.plist */,
+			);
+			path = Fala;
+			sourceTree = "<group>";
+		};
+		901DD83C4DCE44FF8DED787B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B60CEEC909BE43889FDCFE03 /* AppModel.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		7301AFDEF920402684B4B251 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				70FE90DA0F0E41978C91759B /* LearningProgress.swift */,
+				B9B37F94320C4A42836E2B4D /* ConversationTurn.swift */,
+				A972524C8C7144A099782EA6 /* UtteranceAnalysis.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		36E98BC9A0E64DE78C08C51C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3611EF6BFA3944BB8CE4119F /* SpeechRecognitionService.swift */,
+				AB9FF28E5271425ABED17CE0 /* OnDeviceLanguageModel.swift */,
+				1D83A15FF3ED4F319E091476 /* TextToSpeechService.swift */,
+				CBD51301CD8F4D33BB355664 /* ProgressStore.swift */,
+				625C6FB4D79B42139F807EDE /* WeaknessAnalyzer.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		9A0701C006BD46E291EB9B1C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				03C072A7B4814093BAF30C55 /* RootView.swift */,
+				B0B22248103243B89C31DBC9 /* HomeView.swift */,
+				ABD52B0432084E3C8D0BCE73 /* PracticeView.swift */,
+				4D4722E1C5DA41C2820ECBFF /* ProgressScreen.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		93C54E7034F04C6BB193F383 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				71293E4FE4374F988A0FF14E /* FalaTheme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		EB7A142DFFBE492FB86587CB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				98679C24EE7D4956909BD99F /* Fraunces.ttf */,
+				AF216C56F62C4069BF3E5E39 /* Manrope.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F2107B907A04720BDD84912 /* Fala */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10000000000000000000001 /* Build configuration list for PBXNativeTarget "Fala" */;
+			buildPhases = (
+				C5DFA9E51B6248318158330A /* Sources */,
+				4051B1CD7595402E8BEA51EB /* Frameworks */,
+				80281B69D81A4CFDBBE661FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fala;
+			productName = Fala;
+			productReference = E3F2107B907A04720BDD84912 /* Fala.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4520CF401224D6DB7E0A64E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					3F2107B907A04720BDD84912 = {
+						CreatedOnToolsVersion = 26.0;
+					};
+				};
+			};
+			buildConfigurationList = A10000000000000000000002 /* Build configuration list for PBXProject "Fala" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = "pt-PT";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"pt-PT",
+			);
+			mainGroup = B044EA87225742DE9A18B90F;
+			productRefGroup = 1BA467E613814A66A12DC5B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F2107B907A04720BDD84912 /* Fala */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80281B69D81A4CFDBBE661FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				635996A0AD734636B470E451 /* Assets.xcassets in Resources */,
+				98679C24EE7D4956909BD99E /* Fraunces.ttf in Resources */,
+				AF216C56F62C4069BF3E5E38 /* Manrope.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5DFA9E51B6248318158330A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12201F702A57433FA5FF57AC /* FalaApp.swift in Sources */,
+				B60CEEC909BE43889FDCFE02 /* AppModel.swift in Sources */,
+				70FE90DA0F0E41978C91759A /* LearningProgress.swift in Sources */,
+				B9B37F94320C4A42836E2B4C /* ConversationTurn.swift in Sources */,
+				A972524C8C7144A099782EA5 /* UtteranceAnalysis.swift in Sources */,
+				3611EF6BFA3944BB8CE4119E /* SpeechRecognitionService.swift in Sources */,
+				AB9FF28E5271425ABED17CDF /* OnDeviceLanguageModel.swift in Sources */,
+				1D83A15FF3ED4F319E091475 /* TextToSpeechService.swift in Sources */,
+				CBD51301CD8F4D33BB355663 /* ProgressStore.swift in Sources */,
+				625C6FB4D79B42139F807EDD /* WeaknessAnalyzer.swift in Sources */,
+				03C072A7B4814093BAF30C54 /* RootView.swift in Sources */,
+				B0B22248103243B89C31DBC8 /* HomeView.swift in Sources */,
+				ABD52B0432084E3C8D0BCE72 /* PracticeView.swift in Sources */,
+				4D4722E1C5DA41C2820ECBFE /* ProgressScreen.swift in Sources */,
+				71293E4FE4374F988A0FF14D /* FalaTheme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A10000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A10000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A10000000000000000000005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Fala/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Fala;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fala.languagelearning;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A10000000000000000000006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Fala/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Fala;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fala.languagelearning;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A10000000000000000000002 /* Build configuration list for PBXProject "Fala" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10000000000000000000003 /* Debug */,
+				A10000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A10000000000000000000001 /* Build configuration list for PBXNativeTarget "Fala" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10000000000000000000005 /* Debug */,
+				A10000000000000000000006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4520CF401224D6DB7E0A64E /* Project object */;
+}
