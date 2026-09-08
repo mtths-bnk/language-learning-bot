@@ -1,17 +1,27 @@
 # Language Learning Bot
-**The idea:** Learning languages with a voice bot – offline on your machine
 
-Why paying for all these trending language apps that can "talk to you with AI" when you can run it on your own machine leveraging open source AI models? At least that was my initial thought as I built this simple app. :) 
+Offline voice tutor for **European Portuguese**.
+
+This repo now has two implementations of the same idea:
+
+1. **Desktop (original)** — Python terminal app using Whisper + Ollama/Mistral + MMS TTS. See below.
+2. **iPhone (on-device rewrite)** — native SwiftUI app **Fala** under [`ios/Fala`](ios/Fala). Speech, tutoring, and TTS all stay on the device (Apple Intelligence Foundation Models + on-device Speech + system Portuguese voices).
+
+## Fala (iPhone)
+
+Open `ios/Fala/Fala.xcodeproj` in Xcode 26+, sign, and run on an Apple Intelligence–capable iPhone. Full setup notes: [`ios/Fala/README.md`](ios/Fala/README.md).
+
+## Desktop Python app
+
+**The idea:** Learning languages with a voice bot – offline on your machine.
+
+Why paying for all these trending language apps that can "talk to you with AI" when you can run it on your own machine leveraging open source AI models? At least that was my initial thought as I built this simple app. :)
 
 This implementation is teaching European Portuguese.
-
-The results are promising but unfortunately there are still a few limitations. 
 
 ### Limitations
 - The mistral-7B model and my prompt are still limited in its language teaching capabilities. You can try with a larger model (comes with potentially larger response times) or by improving the prompt.
 
-
-## Try it out!
 ### Requirements
 - Tested on MacBook Air M2 (16 GB)
 - Python (tested with 3.12.3)
@@ -25,10 +35,10 @@ The results are promising but unfortunately there are still a few limitations.
 6. Install required packages: `pip install -r requirements.txt`
 7. Run the app: `python3 main.py`
 
-## Technical Background
-The app currently runs in a terminal. It uses [whisper](https://github.com/openai/whisper) as speech recognition model (speech to text) with the base model (multilingual) of 74M parameters. After transcribing the text, a large language model (in this case [mistral-7B](https://ollama.com/library/mistral:7b)) – running locally using Ollama – is interpreting the input and using a prompt to generate an answer. The speech synthesizer (text to speech) uses a [Massively Multilingual Speech (MMS)](https://huggingface.co/facebook/mms-tts) model, in this case the [Portuguese](https://huggingface.co/facebook/mms-tts-por) model. It leverages the [VITS implementation](https://huggingface.co/docs/transformers/model_doc/vits).
+### Technical Background
+The app currently runs in a terminal. It uses [whisper](https://github.com/openai/whisper) as speech recognition model (speech to text) with the base model (multilingual) of 74M parameters. After transcribing the text, a large language model (in this case [mistral-7B](https://ollama.com/library/mistral:7b)) – running locally using Ollama – is interpreting the input and using a prompt to generate an answer. The speech synthesizer (text to speech) uses a [Massively Multilingual Speech (MMS)](https://huggingface.co/facebook/mms-tts) model, in this case the [Portuguese](https://huggingface.co/facebook/mms-tts-por) model. It leverages the [VITS implementation](https://huggingface.co/docs/transformers/model_doc/vits).
 
-## Ideas to Improve
+### Ideas to Improve
 - Experiment with models and prompt for better results
 - Build a simple frontend for easy use
 - Implement language switch and prompt adjustment in frontend

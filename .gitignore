@@ -163,3 +163,9 @@ cython_debug/
 
 # learning progress
 learning_progress.json
+
+# Xcode / iOS
+ios/**/xcuserdata/
+ios/**/DerivedData/
+ios/**/*.xcuserstate
+.DS_Store
